@@ -33,7 +33,7 @@ $ErrorActionPreference = "Stop"
 # Set the root of the Subversion repository
 $svnRoot = "C:\Work\Subversion\Patches\Trunk\"
 # Set debug output
-$debug = $true
+$debug = $false
 
 if ($Patch -eq '') {
     $helpText = @"
